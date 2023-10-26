@@ -1,2 +1,2 @@
 # Car-RentalApp
-This is Dotnet Project.
+This is Dotnet Project and React.js.
