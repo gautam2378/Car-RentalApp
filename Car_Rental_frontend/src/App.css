@@ -1,0 +1,232 @@
+/* Create a keyframe animation */
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Apply the animation to the body or a container */
+body {
+  /* Set the background image */
+  background-image: linear-gradient(45deg, #ff6f61, #007bff, #28a745);
+
+  /* Set background size and repeat properties */
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+
+  /* Use animation with a duration and timing function */
+  animation: backgroundAnimation 10s infinite linear;
+}
+
+/* Custom styles for the login card */
+.card {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.btn-login {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+}
+
+.btn-login:hover {
+  background-color: #e25850;
+}
+
+/* Custom styles for the form inputs */
+.form-outline {
+  position: relative;
+}
+
+.form-label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #6c757d;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+  transform: translate(-10%, -50%) scale(0.8);
+  opacity: 0.7;
+}
+
+/* Custom styles for the gradient background */
+.gradient-custom {
+  background: linear-gradient(to bottom, #36d1dc, #5b86e5);
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #28a745; /* Green background color */
+  border-bottom: 2px solid #ff0000; /* Red border on the bottom */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff; /* White text color for the brand */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for the navbar toggler icon */
+}
+
+/* Navigation Links */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color: #fff; /* White text color for navigation links */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* User Info */
+.navbar-brand.text-light {
+  font-weight: normal;
+  margin-right: 15px;
+  color: #fff; /* White text color for user info */
+}
+
+/* Login and Logout Links */
+.nav-item.nav-link {
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item.nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Card Styles for Add Car Page */
+/* Card Styles for Add Car Page */
+.card.bg-primary {
+  background: linear-gradient(to bottom, #007bff, #0056b3); /* Gradient background */
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: auto; /* Keep card width normal */
+  height: auto; /* Keep card height normal */
+  max-width: none; /* Remove maximum width constraint */
+  max-height: none; /* Remove maximum height constraint */
+}
+
+
+.card.bg-primary .card-body {
+  padding: 2rem;
+}
+
+/* Heading Styles for Add Car Page */
+.card.bg-primary h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* Paragraph Styles for Add Car Page */
+.card.bg-primary p {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+  margin-bottom: 2rem;
+}
+
+/* Form Input Styles for Add Car Page */
+.card.bg-primary .form-control {
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Radio Button Styles for Add Car Page */
+.card.bg-primary .form-check-input {
+  margin-right: 0.5rem;
+}
+
+/* Button Styles for Add Car Page */
+.card.bg-primary .btn-light {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card.bg-primary .btn-light:hover {
+  background-color: #218838;
+}
+
+/* Radio Button Label Styles for Add Car Page */
+.card.bg-primary label {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  color: #fff;
+}
+
+/* Radio Button Label Hover Styles for Add Car Page */
+.card.bg-primary label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Search Form Styles */
+.form-outline {
+  position: relative;
+}
+
+.form-control {
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue button background color */
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* You can adjust the colors and styles according to your preference */
+
+/* Search Results Styles */
+.row-cols-1.row-cols-md-3.g-4.m-5 {
+  /* Add styles for the container that holds the search results */
+}
